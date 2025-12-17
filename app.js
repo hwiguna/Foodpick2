@@ -1,6 +1,7 @@
 // Restaurant data will be loaded from restaurants.json
 let restaurants = [];
 let cuisines = new Set();
+let lastSelectedRestaurant = null;
 
 // DOM elements
 const cuisineDropdown = document.getElementById('cuisine-dropdown');
@@ -70,7 +71,18 @@ pickRestaurantBtn.addEventListener('click', () => {
         return;
     }
     
-    const selectedRestaurant = getRandomElement(filteredRestaurants);
+    // If there's more than one restaurant, avoid picking the same one
+    let selectedRestaurant;
+    if (filteredRestaurants.length > 1 && lastSelectedRestaurant) {
+        // Filter out the last selected restaurant
+        const availableRestaurants = filteredRestaurants.filter(
+            r => r.name !== lastSelectedRestaurant.name
+        );
+        selectedRestaurant = getRandomElement(availableRestaurants);
+    } else {
+        selectedRestaurant = getRandomElement(filteredRestaurants);
+    }
+    
     displayRestaurant(selectedRestaurant);
 });
 
@@ -79,6 +91,9 @@ function displayRestaurant(restaurant) {
     restaurantName.textContent = restaurant.name;
     restaurantCuisine.textContent = restaurant.cuisine;
     restaurantComment.textContent = restaurant.comment || 'No additional notes';
+    
+    // Save this as the last selected restaurant
+    lastSelectedRestaurant = restaurant;
     
     resultDiv.classList.remove('hidden');
     
