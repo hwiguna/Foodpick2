@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Restaurant Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🍽️ Random Restaurant Picker</h1>
+        
+        <div class="controls">
+            <div class="cuisine-selector">
+                <label for="cuisine-dropdown">Choose Cuisine:</label>
+                <div class="dropdown-row">
+                    <select id="cuisine-dropdown">
+                        <option value="all">All Cuisines</option>
+                    </select>
+                    <button id="random-cuisine-btn" class="btn btn-secondary">🎲 Random Cuisine</button>
+                </div>
+            </div>
+            
+            <button id="pick-restaurant-btn" class="btn btn-primary">🎯 Pick a Restaurant!</button>
+        </div>
+
+        <div id="result" class="result hidden">
+            <div class="restaurant-card">
+                <h2 id="restaurant-name"></h2>
+                <div class="restaurant-info">
+                    <span class="cuisine-badge" id="restaurant-cuisine"></span>
+                </div>
+                <p id="restaurant-comment" class="comment"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

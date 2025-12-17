@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Olive Garden",
+        "cuisine": "Italian",
+        "comment": "Cheese Ravioli (no cheese on top) with MARINARA sauce, Lasagna, Spaghetti with meat sauce."
+    },
+    {
+        "name": "Valentino's",
+        "cuisine": "Italian",
+        "comment": "Lasagna w meat sauce, Pizza | H:Spaghetti w meat sauce"
+    },
+    {
+        "name": "Pizza Hut",
+        "cuisine": "Italian",
+        "comment": "Pan Pizza: Pepperoni, Mushoom"
+    },
+    {
+        "name": "Chipotle",
+        "cuisine": "Mexican",
+        "comment": "Burrito bowl: brown rice, black beans, chicken, Corn, cheese, 2 scoops of guac"
+    },
+    {
+        "name": "Qdoba",
+        "cuisine": "Mexican",
+        "comment": "Burrito bowl: brown rice, black beans, chicken, pico de gallo, sour cream, cheese, 2 scoops of guac"
+    },
+    {
+        "name": "Mi Tierra",
+        "cuisine": "Mexican",
+        "comment": "Enchilada Deluxe"
+    },
+    {
+        "name": "La Paz",
+        "cuisine": "Mexican",
+        "comment": "Hardshell Tacos, Loaded Chicken Nachos, Chilli Relleno with regular beans"
+    },
+    {
+        "name": "Panera",
+        "cuisine": "Sandwiches",
+        "comment": "Chicken Avocado Melt"
+    },
+    {
+        "name": "Runza",
+        "cuisine": "Sandwiches",
+        "comment": "Swiss Mushroom Runza + Onion Ring"
+    },
+    {
+        "name": "Goodcents",
+        "cuisine": "Sandwiches",
+        "comment": "6\" Turkey on Wheat, Provolone, standard dress | H:Chicken Cheese Steak"
+    },
+    {
+        "name": "Wendy's",
+        "cuisine": "Sandwiches",
+        "comment": "Single No Cheese, Small Fry"
+    },
+    {
+        "name": "McDonalds",
+        "cuisine": "Sandwiches",
+        "comment": "BigMac or 2 Hamburgers + Fries"
+    },
+    {
+        "name": "Jimmy John's",
+        "cuisine": "Sandwiches",
+        "comment": "#12"
+    },
+    {
+        "name": "Oven",
+        "cuisine": "Indian",
+        "comment": "Crack, Tikka Burrito. H:Chx Tikka Madras Biryani"
+    },
+    {
+        "name": "Tandoor",
+        "cuisine": "Indian",
+        "comment": "Chicken Tikka"
+    },
+    {
+        "name": "Kripa",
+        "cuisine": "Indian",
+        "comment": "Chx Tikka Masala + Naan"
+    },
+    {
+        "name": "Akita",
+        "cuisine": "Asian",
+        "comment": "Hibachi Chicken with Rice"
+    },
+    {
+        "name": "Fortune Palace",
+        "cuisine": "Asian",
+        "comment": "Wermz"
+    },
+    {
+        "name": "West A Thai",
+        "cuisine": "Asian",
+        "comment": "Red Curry Chx"
+    },
+    {
+        "name": "High Peak Thai",
+        "cuisine": "Asian",
+        "comment": "Yellow Curry Chx"
+    },
+    {
+        "name": "Blue Orchid",
+        "cuisine": "Asian",
+        "comment": "Red Curry + Spring Rolls"
+    },
+    {
+        "name": "Daffodils",
+        "cuisine": "Asian",
+        "comment": ""
+    },
+    {
+        "name": "Chick-Fil-A",
+        "cuisine": "Other",
+        "comment": "Santa Fe Salad Avocado/Apple"
+    },
+    {
+        "name": "Famous Dave's",
+        "cuisine": "Other",
+        "comment": "Wing Platter, Sassy Sauce, Cornbreads"
+    },
+    {
+        "name": "KFC",
+        "cuisine": "Other",
+        "comment": ""
+    },
+    {
+        "name": "Engine House Cafe",
+        "cuisine": "Other",
+        "comment": ""
+    },
+    {
+        "name": "Village Inn",
+        "cuisine": "Other",
+        "comment": ""
+    },
+    {
+        "name": "IHOP",
+        "cuisine": "Other",
+        "comment": ""
+    },
+    {
+        "name": "Long John Silvers",
+        "cuisine": "Other",
+        "comment": ""
+    }
+]
