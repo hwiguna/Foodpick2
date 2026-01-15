@@ -143,5 +143,10 @@
         "name": "Long John Silvers",
         "cuisine": "Other",
         "comment": ""
+    },
+    {
+        "name": "Applebee's",
+        "cuisine": "American",
+        "comment": ""
     }
 ]
